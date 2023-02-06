@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Assignment-2</title>
+
+
+
+    <!--Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .title {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #logo {
+            min-width: 100px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light px-4">
+        <a href="#" class="navbar-brand mb-0">
+            <img class="d-inline-block align-top" src="./assests/GeminiSolutionsLogo.png" alt="Gemini Solutions Logo"
+                width="150" height="30" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div class="collapse navbar-collapse d-flex-md justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Community</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Support</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item px-4">
+                    <a href="#" class="btn btn-outline-primary">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="btn btn-primary">Register</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!--Section - video, heading and button-->
+    <section>
+        <video playsinline autoplay muted loop
+            class="position-absolute left-0 w-100 h-100 object-fit-cover obejct-position-center video">
+            <source src="./assests/poster-video.mp4" type="video/mp4">
+        </video>
+        <div class="position-relative min-vh-100 d-flex flex-column align-items-center justify-content-center">
+            <h2 class="text-white fw-bold text-center title">The largest community of photo enthusiasts</h2>
+            <button class="btn btn-primary">Learn More</button>
+        </div>
+    </section>
+
+    <!--Section - heading and four equally divided containers that contain headings and texts with buttons-->
+    <section class="m-5">
+        <div class="mb-4 title">
+            <h2 class="fw-bold">Snap Photos and share like</h2>
+            <h2 class="fw-bold">never before</h2>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-8 col-md-6 mb-2">
+                <h5 class="fs-5 fw-bold">Sed ut perspiciatis</h5>
+                <p class="fw-light">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                    consequuntur
+                    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+                <button class="btn btn-outline-primary">Learn More</button>
+            </div>
+            <div class="col-sm-8 col-md-6 mb-2">
+                <h5 class="fs-5 fw-bold">Lorem ipsum dolor</h5>
+                <p class="fw-light">Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ida te tu quada
+                    Lorem, ipsum dolor..</p>
+                <button class="btn btn-outline-primary">Learn More</button>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-8 col-md-6 mb-2">
+                <h5 class="fs-5 fw-bold">Nemo enim ipsam</h5>
+                <p class="fw-light">Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                    quisquam
+                    est,
+                    qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.
+                </p>
+                <button class="btn btn-outline-primary">Learn More</button>
+            </div>
+            <div class="col-sm-8 col-md-6 mb-2">
+                <h5 class="fs-5 fw-bold">Tempor incididunt</h5>
+                <p class="fw-light">Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+                    ipsum quia
+                    dolor
+                    sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
+                <button class="btn btn-outline-primary">Learn More</button>
+            </div>
+        </div>
+
+    </section>
+    <!--Section - heading then text, heading with form-->
+    <section class="m-5">
+        <h2 class="title text-center mb-3 fw-bold">Ready to take a free trial?</h2>
+        <h4 class="title text-center mb-3 fw-medium fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do
+            eiusmod
+            tempor incididunt ut labore. Lorem ipsum dolor sit amet.</h3>
+
+            <h2 class="title fw-bold text-center">Subscribe for free</h2>
+            <form class="border p-3">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
+                        <label for="" class="form-inline">First name</label>
+                        <input class="form-control" type="text" placeholder="Placeholder">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
+                        <label for="" class="form-inline">Middle name</label>
+                        <input class="form-control" type="text" placeholder="Placeholder">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
+                        <label for="" class="form-inline">Last name</label>
+                        <input class="form-control" type="text" placeholder="Placeholder">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
+                        <label>Gender</label>
+                        <select class="form-control">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
+                        <label for="">Age</label>
+                        <input class="form-control" type="text" placeholder="Placeholder">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-lg-3 mb-2">
+                        <label for="">Contact Number</label>
+                        <input class="form-control" type="text" placeholder="Placeholder">
+                    </div>
+                </div>
+                <div class="form-group mb-2">
+                    <label>Address</label>
+                    <textarea class="form-control" rows="4"></textarea>
+                </div>
+                <div class="text-center
+            "><button class="btn btn-outline-primary">Submit</button></div>
+            </form>
+    </section>
+    <!--Section - image with texts-->
+    <section class="m-5 border p-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+                <img class="w-100 h-100 object-fit-cover" src="./assests/firstImage.png" alt="">
+            </div>
+            <div class="col">
+                <ul class="nav nav-tabs mb-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#">Contact</a>
+                    </li>
+                </ul>
+                <p class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus vitae,
+                    nulla
+                    accusamus explicabo eligendi facilis consequuntur repudiandae ipsa, fuga aspernatur animi veniam nam
+                    eum officia eveniet! Lorem, ipsum dolor sit amet consectetur adipisicing elit.Corporis, ipsam.
+                    Delectus, sint.</p>
+            </div>
+        </div>
+    </section>
+    <!--Section - image with accordians-->
+    <section class="m-5 border p-3">
+        <div class="row">
+
+            <div class="col-sm-12 col-md-12 col-lg-6 mb-3">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <strong>Accordion Item #1</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                This is the first item's accordion body. It is hidden by default, until the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes
+                                control the overall appearance, as well as the showing and hiding via CSS transitions.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo"><strong>Accordion Item #2</strong>
+
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                This is the second item's accordion body. It is hidden by default, until the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes
+                                control the overall appearance, as well as the showing and hiding via CSS transitions.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <strong>Accordion Item #3</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                This is the third item's accordion body. It is hidden by default, until the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes
+                                control the overall appearance, as well as the showing and hiding via CSS transitions.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 ">
+                <img class="w-100 h-100 object-fit-cover" src="./assests/secondImage.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!--Section - heading with text-->
+    <section class="m-5 border p-3">
+        <h3 class="text-center title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </h3>
+        <h3 class="text-center title mb-4">tempor incididunt ut labore</h3>
+        <div class="d-flex align-items-center justify-content-center">
+            <button type="button" class="btn btn-light btn-lg mb-2 "><span class="bi bi-x-circle"></span></button>
+        </div>
+        <p class="text-center title fw-light">Nemo enim ipsam</p>
+    </section>
+    <!--footer - heading with badges-->
+    <footer class="m-5 p-3 border">
+        <h2 class="title text-center fw-bold mb-4">You’re in good company</h2>
+        <h4 class="title text-center fs-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <ul class="list-group">
+                        <li class="list-group-item">Amet consectetur <span
+                                class="badge badge-pill badge-info float-right">22</span></li>
+
+                        <li class="list-group-item">Amet consectetur<span
+                                class="badge badge-pill badge-info float-right">1</span> </li>
+                        <li class="list-group-item ">Amet consectetur<span
+                                class="badge badge-pill badge-info float-right">76</span> </li>
+                        <li class="list-group-item ">Amet consectetur<span
+                                class="badge badge-pill badge-info float-right">20</span> </li>
+                        <li class="list-group-item ">Amet consectetur<span
+                                class="badge badge-pill badge-info float-right">54</span> </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-4 col-lg-3">
+                    <ul class="list-group">
+                        <li class="list-group-item ">Ipsum dolor sit<span
+                                class="badge badge-pill badge-info float-right">12</span></li>
+                        <li class="list-group-item ">Ipsum dolor sit<span
+                                class="badge badge-pill badge-info float-right">98</span></li>
+                        <li class="list-group-item ">Ipsum dolor sit<span
+                                class="badge badge-pill badge-info float-right">43</span></li>
+                        <li class="list-group-item ">Ipsum dolor sit<span
+                                class="badge badge-pill badge-info float-right">5</span></li>
+                        <li class="list-group-item ">Ipsum dolor sit<span
+                                class="badge badge-pill badge-info float-right">21</span></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <ul class="list-group">
+                        <li class="list-group-item ">Dacus explicabo <span
+                                class="badge badge-pill badge-info float-right">51</span></li>
+                        <li class="list-group-item ">Dacus explicabo <span
+                                class="badge badge-pill badge-info float-right">2</span></li>
+                        <li class="list-group-item ">Dacus explicabo <span
+                                class="badge badge-pill badge-info float-right">24</span></li>
+                        <li class="list-group-item ">Dacus explicabo <span
+                                class="badge badge-pill badge-info float-right">65</span></li>
+                        <li class="list-group-item ">Dacus explicabo <span
+                                class="badge badge-pill badge-info float-right">11</span></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <ul class="list-group">
+                        <li class="list-group-item ">Veniam nam eum <span
+                                class="badge badge-pill badge-info float-right">0</span></li>
+                        <li class="list-group-item ">Veniam nam eum <span
+                                class="badge badge-pill badge-info float-right">10</span></li>
+                        <li class="list-group-item ">Veniam nam eum <span
+                                class="badge badge-pill badge-info float-right">7</span></li>
+                        <li class="list-group-item ">Veniam nam eum <span
+                                class="badge badge-pill badge-info float-right">65</span></li>
+                        <li class="list-group-item ">Veniam nam eum <span
+                                class="badge badge-pill badge-info float-right">43</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
